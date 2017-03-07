@@ -1,5 +1,7 @@
 import { throwInvariant, flatten } from './utils';
 
+const Symbol = Symbol || require('es6-symbol');
+
 const isEffectSymbol = Symbol('isEffect');
 
 const effectTypes = {
